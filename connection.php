@@ -16,14 +16,14 @@
    <div id="pass">
    <p>Entrez vos identifiants pour vous connecter :</p>
        <img src="connection.jpg" alt="Connection Image" width="300" height="200">
-   <form action="login.php" method="post">
-       <label for="username">Nom d'utilisateur:</label>
-       <input type="text" id="username" name="username" required>
+   <form action= "#" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
 
-       <label for="password">Mot de passe:</label>
-       <input type="password" id="password" name="password" required>
-
-       <button type="submit">Se connecter</button>
+        <button type="submit"><a href="connection.php">Se connecter</a></button>
    </form>
     </div>
     <p>Vous n'avez pas de compte ? <a href="register.html">Inscrivez-vous ici</a>.</p>
