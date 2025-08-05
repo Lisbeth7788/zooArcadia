@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style2.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="back-button">
-        <a href="index.html" id="back">Retour à l'accueil</a>
-    </div>
     <h1>Nous contacter</h1>
     <p>Pour toute question ou information, veuillez nous contacter via le formulaire ci-dessous.</p>
     <div class="contact-form">
