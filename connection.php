@@ -8,27 +8,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <button id="back"><a href="index.html">Retour à l'accueil</a></button>
+     <header>
+        <h1>Bienvenue sur la page d'accueil</h1>
+        <nav>
+            <ul>
+                <li><a href="renseignementEmployer.php">Employé</a></li>
+                <li><a href="renseignementVeterinaire.php">Vétérinaire</a></li>
+            </ul>
+        </nav>
+
     </header>
-    <h1>Connection </h1>
-
-   <div id="pass">
-   <p>Entrez vos identifiants pour vous connecter :</p>
-       <img src="connection.jpg" alt="Connection Image" width="300" height="200">
-   <form action= "#" method="post">
-        <label for="username">Nom d'utilisateur :</label>
-        <input type="text" id="username" name="username" required>
-        
-        <label for="password">Mot de passe :</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit"><a href="connection.php">Se connecter</a></button>
-   </form>
-    </div>
-    <p>Vous n'avez pas de compte ? <a href="register.html">Inscrivez-vous ici</a>.</p>
+    <main>
+        <h2>Choisissez une option</h2>
+        <p>Pour accéder aux informations sur les animaux, veuillez vous connecter en tant qu'employé ou vétérinaire.</p>
+        <button id="employer"><a href="renseignementEmployer.php">Employé</a></button>
+        <button id="veterinaire"><a href="renseignementVeterinaire.php">Vétérinaire</a></button>
+    </main>
     <footer>
-        <p>&copy; 2025 Zoo Arcadia. Tous droits réservés.</p>
+        <p>&copy; 2025 Zoo Arcadia. All rights reserved.</p>
     </footer>
 </body>
 </html>
